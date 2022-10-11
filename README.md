@@ -1,70 +1,15 @@
-# Getting Started with Create React App
+React를 사용한 쇼핑몰 프로젝트 입니다.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+작업 기간 : 2022.7.2 ~ 2022.9.1 (2달)
+인력 구성 : 개인 프로젝트
+프로젝트 목적 : 리액트의 공부 및 쇼핑몰을 만들기 위함
+주요업무 및 상세역할
+- 상품목록 보여주는 기능 구현
+- 서버로 데이터를 요청하여 상품 더 보기 기능 구현
+- localStorage를 이용해서 최근 본 상품 보여주기
+- 장바구니 기능 구현
+사용언어  및 개발환경 : JavaScript(ES6),React,Redux
+느낀 점 및 배운 점 :
+  이 프로젝트를 하면서 자바스크립트 공부를 많이 해야되겠다고 느꼈습니다.
+  상품목록을 보여준다거나 가나다순으로 상품 정렬 기능을 구현을 해보면서 리액트 보다는 자바스크립트를 잘 다루는게 중요하다는걸 느꼈습니다.
+  실질적으로 리액트는 라이브러리라서 사용법만 잘 익히면 되는데 논리적인 로직을 짜거나 기능 구현을 위한 핵심 기능들은 다 자바스크립트에 의한것이었습니다. 그래서 저는 이런 부분들을 보안   하기 위하여 책과 강의를 보면서 웹에서 꼭 필요한 기능들인 동적인 화면을 보여준다거나 배열이나 객체를 다룰때 쓰는 함수들을 다루는 연습을 많이 하였습니다.
